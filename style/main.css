@@ -8,7 +8,7 @@ body {
 	padding-top: 20px;
 }
 .logo{
-	color: #ffffff;
+	color: #ccc;
 	font-weight: bold;
 	-webkit-text-stroke: 1px #242582;
 }
@@ -25,11 +25,11 @@ header #title h1{
 	text-align: center;
 	margin: 0 auto;
 	color: #242582;
-	padding: 20px 0;
+	padding: 17px 0;
 }
 header a {
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 17px;
 	color: #242582;
 
 }
@@ -41,7 +41,7 @@ header li{
 	float: left;
 	list-style: none;
 	display: inline;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 header #title{
 	float: left;
@@ -99,7 +99,7 @@ input, select, textarea {
 }
 #record-status .box{
 	float:left;
-	width: 30%;
+	width: 33%;
 	padding: 8px;
 	margin: 8px 5px;
 	text-align: center;
