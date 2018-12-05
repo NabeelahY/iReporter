@@ -4,8 +4,54 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: "Open Sans", Arial, sans-serif; 
+  font-family: "Montserrat", Arial, sans-serif; 
 }
+button {
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 15px;
+  background: #242582;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+button a{
+  color: #ffffff;
+  text-decoration: none;
+}
+button:hover{
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.land{
+  padding: 10% 0 0;
+  width: 50%;
+  margin: auto; 
+}
+.land p{
+  text-align: center;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  line-height: 1.5em;
+}
+.land h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #ffffff;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #242582;
+}
+.land button{
+  width: 30%;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+}
+
 h1 {
 	text-align: center;
   color: #ffffff;
@@ -44,23 +90,7 @@ h1 {
   box-sizing: border-box;
 }
 
-button {
-  font-size: 15px;
-  text-transform: uppercase;
-  width: 100%;
-  display: block;
-  margin-bottom: 10px;
-  position: relative;
-  padding: 15px;
-  background: #242582;
-  color: #ffffff;
-  border: 0;
-  cursor: pointer;
-}
-button a{
-  color: #ffffff;
-  text-decoration: none;
-}
+
 label span{
   cursor: pointer;
   color: #242582;
