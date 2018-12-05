@@ -13,10 +13,8 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="index.html">Login</a></li>
-					<li><a href="landing-page.html">Add Record</a></li>
 					<li><a href="profile.html">My Profile</a></li>
-					<li><a href="admin.html">Admin</a></li>
+					<li><a href="login.html">Log out</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -34,10 +32,11 @@
 					</select>
 					<label>Description</label>
 					<textarea placeholder="Describe what you witnessed"></textarea>
-					<label>Do you have media evidence? (optional)</label>
-					<input type="file" name="media" accept="audio/*,video/*,image/*">
-					<label>Location where the event happened</label>
-					<input type="text" name="area" placeholder="Enter address">
+					<!--<label>Do you have media evidence? (optional)</label>
+					<input type="file" name="media" accept=",video/*,image/*">-->
+					<label>Enter the Longitude and Latitude of the location</label>
+					<input type="number" name="area" placeholder="Enter longitude">
+					<input type="number" name="area" placeholder="Enter latitude">
 					<button type="button">Submit record</button>
 				</form>
 			</div>
